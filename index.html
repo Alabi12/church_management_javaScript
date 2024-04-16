@@ -13,9 +13,7 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header>
-
-    </header>
+    <header></header>
     <main>
       <div class="container">
         <h1 class="mt-5 mb-5">P.C.G ZIMMERMANN MEMORIAL</h1>
@@ -70,16 +68,7 @@
                 />
               </div>
               <div class="col-lg mt-5">
-                <button class="btn btn-success" id="addData" onclick="AddData()">
-                  Add Data
-                </button>
-                <button
-                  class="btn btn-primary"
-                  id="updateData"
-                  onclick="UpdateData()"
-                >
-                  Edit Data
-                </button>
+                <button class="btn btn-success" id="addData">Add Data</button>
               </div>
             </div>
           </div>
@@ -93,11 +82,11 @@
             <table class="table table-bordered" id="crudTable">
               <thead>
                 <tr>
-                  <td>Name</td>
-                  <td>Age</td>
-                  <td>Address</td>
-                  <td>Email</td>
-                  <td>Actions</td>
+                  <th>Name</th>
+                  <th>Age</th>
+                  <th>Address</th>
+                  <th>Email</th>
+                  <th>Actions</th>
                 </tr>
               </thead>
               <tbody></tbody>
